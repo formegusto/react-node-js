@@ -1,0 +1,19 @@
+{
+  "name": "react-node-js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/formegusto/react-node-js.git",
+  "author": "formegusto <formegusto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc src/* --outDir dist --esModuleInterop true && node dist"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0"
+  }
+}
